@@ -24,3 +24,59 @@ nav>span {
   font-size: 13px;
   font-weight: 600;
 }
+
+
+article {
+  display: flex;
+  padding: 50px 50px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+article>img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4%;
+}
+
+article>div {
+  padding: 5px 0px 0px 15px;
+}
+
+article>div>img {
+  width: 25px;
+  height: 20px;
+}
+
+article>div>p {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+}
+
+article>div>p:hover {
+  -webkit-line-clamp: unset;
+  overflow: visible;
+  display: block;
+}
+
+article>div>span {
+  padding-right: 10px;
+}
+
+.Date {
+  color: #d64545;
+  font-weight: 600;
+}
+
+.Date:hover {
+  color: #d64545;
+  text-decoration: underline;
+  text-shadow: 0 0 .5px #d64545;
+}
