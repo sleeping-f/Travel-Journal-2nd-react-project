@@ -8,7 +8,7 @@ export default function Entry({ imageSrc, location, mapLink, date, description, 
                 <a href={mapLink} className="MapLink">View on Google Maps</a>
                 <h1>{title}</h1>
                 <p className="Date">{date}</p>
-                <p className="Description">{description}</p>
+                <p className="Description">{description} </p>
             </div>
         </article >
     )
